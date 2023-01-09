@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 22e1ad0ccba39a346a2a099f198cdce8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bullet: {fileID: 3771922031246941648, guid: b12a5e737db83734a9b7f87151907eb8,
+      type: 3}
+  - follower: {instanceID: 0}
+  - colour: {instanceID: 0}
+  - laser: {fileID: 7617297093038907539, guid: f91268830a8e12e4a84c7d6994cbd26e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

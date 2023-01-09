@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 924ba398ab388054d85dea6ec3bdba4d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - block: {instanceID: 0}
+  - breakable: {instanceID: 0}
+  - platform: {instanceID: 0}
+  - normalWalls: {fileID: 3693636028692501411, guid: 666021b6175b72642b18b42f78857ba9,
+      type: 3}
+  - caveWalls: {instanceID: 0}
+  - Metroid: {instanceID: 0}
+  - Frog: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

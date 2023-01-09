@@ -1,0 +1,463 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1673248293373780, "dur":1617, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248293375402, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1673248293375454, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1673248293375467, "dur":531, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1673248293376029, "dur":629, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248293376658, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294357586, "dur":479, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358065, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358089, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358093, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358105, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358108, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358119, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358121, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358130, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358132, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358140, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358142, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358150, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358152, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358159, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358161, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358168, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358169, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358178, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358180, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358188, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358189, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358199, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358200, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358210, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358237, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294358360, "dur":2163, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1673248293376089, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293376665, "dur":6568, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293383246, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673248293383251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293385019, "dur":873, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673248293385897, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673248293385992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293386275, "dur":9605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673248293395884, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673248293396131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293396517, "dur":102221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673248293498841, "dur":127913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293626761, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293626773, "dur":13508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293640367, "dur":43761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293684145, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293684169, "dur":5394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293689636, "dur":84066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293773710, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293773730, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293775844, "dur":58953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293834805, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293834861, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293837563, "dur":40739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293878309, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293878323, "dur":4277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293882689, "dur":76418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293959111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293959150, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293960785, "dur":32375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293993164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248293993171, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248293996307, "dur":219342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248294215654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673248294215664, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673248294218570, "dur":139024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293376124, "dur":547, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293376671, "dur":6574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293383249, "dur":10505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1673248293393759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293393775, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1673248293396528, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673248293396739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293396749, "dur":103731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673248293500552, "dur":88607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1673248293589167, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293589179, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1673248293593285, "dur":32014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293625339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293625351, "dur":4612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293630032, "dur":66238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293696277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293696289, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293697993, "dur":31772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293729773, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293729786, "dur":3261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293733114, "dur":63473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293796598, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293796615, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293798607, "dur":130239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293928853, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248293928866, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248293930802, "dur":104534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248294035341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248294035351, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248294037152, "dur":144857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248294182013, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673248294182023, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673248294184255, "dur":173363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293376116, "dur":551, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293376667, "dur":6583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293383250, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673248293383493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293389600, "dur":12357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673248293402046, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1673248293402250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293402263, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1673248293405374, "dur":163971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293569351, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293569509, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293572171, "dur":107668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293679848, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293679870, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293682291, "dur":24014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293706312, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293706363, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293708812, "dur":55851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293764830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293764846, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293766654, "dur":69195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293835853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293835861, "dur":4777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293840724, "dur":33615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293874344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293874359, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293876383, "dur":34062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293910450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248293910459, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248293911927, "dur":255183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248294167116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673248294167127, "dur":6367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673248294173600, "dur":184012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293376160, "dur":516, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293376677, "dur":6566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293383246, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1673248293383627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293395185, "dur":10023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1673248293405288, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1673248293405472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293405483, "dur":95601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1673248293501171, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1673248293501358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293501511, "dur":33902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1673248293535507, "dur":23774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293559295, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293559379, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293561482, "dur":38517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293600013, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293600033, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293602310, "dur":73519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293675838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293675897, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293677997, "dur":85993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293763994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293764005, "dur":4801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293768897, "dur":96843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293865748, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293865767, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293868006, "dur":30951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293898973, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293899002, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293901317, "dur":59469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293960791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248293960800, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248293962139, "dur":104603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248294066749, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248294066762, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248294068486, "dur":284233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248294352723, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673248294352732, "dur":4745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673248294357540, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1673248294357543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293376197, "dur":486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293376683, "dur":6558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293383247, "dur":31239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1673248293414493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293414692, "dur":85923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1673248293500708, "dur":32150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown.exe" }}
+,{ "pid":12345, "tid":5, "ts":1673248293532868, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293532880, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown.exe" }}
+,{ "pid":12345, "tid":5, "ts":1673248293535485, "dur":44457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293579948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293579963, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293582781, "dur":24633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293607427, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293607448, "dur":5251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293612771, "dur":39182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293651959, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293651971, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293653901, "dur":115601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293769509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293769522, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293772094, "dur":62972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293835073, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293835087, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293837610, "dur":70814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293908429, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248293908444, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248293910138, "dur":93240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248294003384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248294003394, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248294005017, "dur":190426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248294195451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673248294195462, "dur":5041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673248294200586, "dur":157034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293376228, "dur":461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293376689, "dur":6561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293383250, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1673248293383510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293390215, "dur":212271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1673248293602577, "dur":82699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293685282, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293685294, "dur":5426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293690798, "dur":59487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293750294, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293750310, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293752219, "dur":32557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293784781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293784963, "dur":4478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293789530, "dur":21820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293811358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293811373, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293813702, "dur":31821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293845532, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293845546, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293847651, "dur":30150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293877811, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293877829, "dur":4889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293882821, "dur":54719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293937549, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248293937565, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248293939302, "dur":162907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248294102219, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294102234, "dur":5328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673248294107623, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1673248294107684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294107688, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1673248294109772, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1673248294109847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294109856, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1673248294112185, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1673248294112267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294112276, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1673248294115382, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1673248294115594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294115604, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1673248294117369, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1673248294117440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294117448, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1673248294119350, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1673248294119422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294119433, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1673248294121460, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1673248294121536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294121547, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1673248294123000, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1673248294123087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294123100, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1673248294125220, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1673248294125293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673248294125301, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1673248294126736, "dur":230849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293376254, "dur":439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293376693, "dur":6563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293383257, "dur":10357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1673248293393621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293393646, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1673248293396805, "dur":101096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1673248293497910, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293497928, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1673248293501249, "dur":67349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293568607, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293568622, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293571573, "dur":29254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293600834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293600845, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293603242, "dur":66589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293669840, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293669855, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293671568, "dur":112991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293784564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293784578, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293787099, "dur":35375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293822484, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293822505, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293824459, "dur":32718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293857185, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293857199, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293859258, "dur":32290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293891558, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293891575, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293893426, "dur":64477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293957910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248293957921, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248293959809, "dur":78134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248294037947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248294037958, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248294039745, "dur":43154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248294082906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248294082918, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248294085343, "dur":205709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248294291058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673248294291069, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673248294292602, "dur":64984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293376279, "dur":418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293376698, "dur":6569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293383267, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1673248293383479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293385181, "dur":216653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1673248293601935, "dur":28369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293630309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293630323, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293631865, "dur":79092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293710963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293710977, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293712824, "dur":21275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293734105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293734121, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293736027, "dur":25963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293761999, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293762016, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293763954, "dur":26248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293790227, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293790245, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293792556, "dur":40544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293833108, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293833123, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293835207, "dur":36312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293871533, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293871552, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293873707, "dur":57514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293931226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248293931242, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248293933335, "dur":158148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248294091491, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248294091507, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248294094509, "dur":86518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248294181033, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673248294181086, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673248294182781, "dur":174832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248293376324, "dur":379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248293376703, "dur":6544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248293383254, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1673248293383632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248293396139, "dur":104310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1673248293500552, "dur":367835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673248293868391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248293868400, "dur":39399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673248293907895, "dur":30618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673248293938518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248293938528, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673248293940019, "dur":83628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673248294023655, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248294023707, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673248294025697, "dur":77930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673248294103633, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248294103649, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673248294105454, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1673248294105532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248294105542, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1673248294107601, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1673248294107669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248294107677, "dur":9042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1673248294116804, "dur":5909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1673248294122719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248294122728, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1673248294125329, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1673248294125547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673248294125553, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1673248294127052, "dur":230527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293376361, "dur":346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293376707, "dur":6544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293383252, "dur":9997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1673248293393257, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293393287, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1673248293396468, "dur":11631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1673248293408105, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293408118, "dur":93251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1673248293501458, "dur":24603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293526073, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293526086, "dur":3098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293529273, "dur":48725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293578008, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293578024, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293579998, "dur":45288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293625336, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293625351, "dur":4323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293629759, "dur":151693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293781458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293781472, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293784033, "dur":99325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293883363, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293883380, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293885882, "dur":30591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293916481, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293916496, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293918657, "dur":74226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293992889, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248293992901, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248293994613, "dur":177186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248294171810, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673248294171828, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673248294175202, "dur":182390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673248293376385, "dur":327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673248293376712, "dur":6537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673248293383249, "dur":10388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1673248293393641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673248293393664, "dur":3098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1673248293396906, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1673248293397201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673248293397210, "dur":222976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1673248293620276, "dur":223132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673248293843416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673248293843429, "dur":3360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673248293846872, "dur":42633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673248293889513, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673248293889533, "dur":6156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673248293895809, "dur":135982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673248294031800, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673248294031812, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673248294033951, "dur":115959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673248294149919, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673248294149933, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673248294152505, "dur":205076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293376418, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293376717, "dur":6535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293383253, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1673248293383658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293396883, "dur":104459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1673248293501430, "dur":22366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293523804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293524012, "dur":5014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293529119, "dur":46925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293576054, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293576071, "dur":3512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293579678, "dur":38578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293618268, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293618282, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293620125, "dur":67991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293688126, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293688149, "dur":4653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293692880, "dur":85802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293778691, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293778704, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293780582, "dur":79149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293859735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293859746, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293861849, "dur":125673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293987529, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248293987541, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248293990258, "dur":33792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248294024054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248294024061, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248294025776, "dur":133716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248294159501, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673248294159518, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/dscoo/Documents/Code/WellDownBuild/WellDown_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673248294162464, "dur":195124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673248294362580, "dur":2242, "ph":"X", "name": "ProfilerWriteOutput" }
+,
